@@ -33,7 +33,7 @@ FILE_UCE_List = 'UCE_list.txt'
 FILE_Listed_IP = 'appeared.txt'
 FILE_Log = 'log.txt'
 FILE_Reason = 'reason.csv'
-FILE_IP_List = 'ip_range.txt'
+FILE_IP_List = 'ip_ranges.txt'
 
 Public_IP_Check_Link =  'https://ifconfig.me/ip'
 UCE_List_Link = 'http://67.58.96.162/rbldnsd-all/dnsbl-1.uceprotect.net.gz'
