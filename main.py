@@ -55,7 +55,7 @@ def call_api(filename, url):
         f.write(r.content)
 
 
-# check if an IP of VPNT is listed in UCE_list, write listed IPs to a file 
+# check if an IP in the list is listed in UCE_list, write listed IPs to a file 
 def check_ip():
     print("Checking IP addresses!")
     call_api(FILE_UCE_List, UCE_List_Link)
@@ -99,7 +99,7 @@ def is_ip(_string):
 	return _result
 
 
-# Check if IP address is belonged to VNPT Static IP range
+# Check if an IP address is listed
 def check_ip_vip(_ip):
     with open(FILE_IP_List, 'r') as f:
         lines = f.readlines()
